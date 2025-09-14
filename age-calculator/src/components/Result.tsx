@@ -14,7 +14,7 @@ export function Result({ years, months, days }: ResultProps) {
         <span className="text-blue-500 mr-2">{months ?? "--"}</span>Meses
       </div>
       <div>
-        <span className="text-blue-700 mr-2">{days ?? "--"}</span>Dias
+        <span className="text-blue-800 mr-2">{days ?? "--"}</span>Dias
       </div>
     </div>
   );
